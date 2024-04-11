@@ -84,6 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('closeButton').addEventListener('click', function () {
             document.getElementById('taxResult').style.display = 'none';
         });
+        
         // Function to check if a value is numeric
         function isNumeric(value) {
             return /^\d+$/.test(value);

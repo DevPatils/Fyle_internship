@@ -4,7 +4,7 @@
 
 <p>I have completed this assignment in 2 day on date 11/04/2024 <br>as I recived it on 10/04/2024</p>
 
-<h4>How can you run on your local System:</h4>
+<h4>How can you run on your local System :</h4>
 <p><b>1. <b>Clone the repo in your local system </p>
 <p><b>2. <b>Run the index.html file on your local system </p>
 
