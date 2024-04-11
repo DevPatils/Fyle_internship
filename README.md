@@ -15,4 +15,8 @@
 
 <h5>ScreenShots : </h5>
 
-![Alt text](Fyle_internship\images\img1.jpg)
+<img src="img1.jpg"/>
+<img src="img2.jpg"/>
+<img src="img3.jpg"/>
+<img src="img4.jpg"/>
+<img src="img5.jpg"/>
