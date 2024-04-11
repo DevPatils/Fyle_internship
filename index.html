@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+
+
+</head>
+
+<body>
+    <div class="containers">
+    <div id="taxResult" style="display:none;">
+        <div class="box-content">
+            <p>Your overall income will be: <br></br>Rs. <span id="taxAmount"> 0</span></p>
+            <button id="closeButton">Close</button>
+        </div>
+    </div>
+    <div class="container-right">
+        <img src="png1-removebg-preview.png">
+        <div id="main-heading">
+            <h3>Calculate your income <br/>after tax <i class="fa-solid fa-sheet-plastic"></i> !</h3>
+        </div>
+    </div>
+
+    <div class="container-left">
+        <form action="">
+            <div class="input-cont">
+                <div class="tooltip-container">
+                    <h5 >Enter gross annual income <span class="info-icon"><i
+                                class="fa-regular fa-circle-question"></i></span></h5>
+                    <div class="tooltip">Gross Annual income is your total salary in a year before deduction</div>
+                    
+                    <span class="error-icon" style="display:none">!</span>
+                    <div class="error-tooltip" style="display:none">This field is mandatory</div>
+                </div>
+
+                <div class="input-container">
+                    <input type="text" id="annualIncome" placeholder="Enter annual income">
+                    <div class="icon-container-annual">
+                        <div class="info-tooltip">Enter numbers only</div>
+
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                    <div class="alertAnnualIncome" >Please enter only numbers for annual income</div>
+                </div>
+
+
+                <div class="input-cont">
+                    <div class="tooltip-container">
+                        <h5>Enter extra income <span class="info-icon"><i
+                                    class="fa-regular fa-circle-question"></i></span></h5>
+                        <div class="tooltip">Information about any extra income</div>
+                        
+                    </div>
+                    
+                    <div class="input-container">
+                        <input type="text" id="extraIncome" placeholder="Enter Extra income">
+                        <div class="icon-container-extra">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <div class="alertextraIncome" >This is extra Div</div>
+                    </div>
+                </div>
+                <div class="input-cont">
+                    <div class="tooltip-container">
+                        <h5>Enter your age group <span class="info-icon"><i
+                                    class="fa-regular fa-circle-question"></i></span></h5>
+                        <div class="tooltip">Select your age group</div>
+                    </div>
+
+                    <select id="age">
+                        <option value="none">Select an age range</option>
+
+                        <option value="40">Less than 40</option>
+                        <option value="40-59">40 to 59</option>
+                        <option value=">=60">60 and older</option>
+                    </select>
+                    <div class="icon-container-age">
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                </div>
+
+                <div class="input-cont">
+                    <div class="tooltip-container">
+                        <h5>Enter deduction <span class="info-icon"><i class="fa-regular fa-circle-question"></i></span>
+                        </h5>
+                        <div class="tooltip">Information about any tax deduction</div>
+                    </div>
+
+                    <div class="input-container">
+                        <input type="text" id="deduction" placeholder="Enter the deduction">
+                        <div class="icon-container-deduction">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <div class="alertDeduction" >This is deduction Div</div>
+
+                    </div>
+                </div>
+                <div class="input-cont">
+                    <button type="submit">Submit</button>
+                </div>
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+</div>
+</body>
+
+</html>
